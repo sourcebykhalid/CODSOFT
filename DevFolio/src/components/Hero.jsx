@@ -9,12 +9,6 @@ function Hero() {
         digital realm. Eager to leverage technical expertise to drive innovation
         and enhance online experiences.
       </span>
-      <span className=" text-emerald-200  text-base sm:text-xl md:text-3xl">
-        Aspiring Frontend Engineer proficient in HTML5, CSS3, JavaScript,
-        ReactJS, and Responsive design, poised to make a positive impact in the
-        digital realm. Eager to leverage technical expertise to drive innovation
-        and enhance online experiences.
-      </span>
     </div>
   );
 }
