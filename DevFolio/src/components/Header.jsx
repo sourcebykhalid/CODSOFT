@@ -15,7 +15,7 @@ function Header() {
     <>
       <div className="flex justify-between items-center mx-auto px-2 sm:px-4 sm:py-8 py-6 sticky top-0 w-full z-50 bg-black border-b sm:border-none border-gray-300 ">
         <div className=" font-bold text-xl sm:text-3xl text-gray-400 animate-pulse transition-all duration-200 ">
-          <span className="sm:fixed top-5">
+          <span className="fixed top-5">
             <span className=" bg-lime-400 p-1 rounded-full text-2xl sm:text-4xl font-semibold text-gray-500 ">
               Kh
             </span>
