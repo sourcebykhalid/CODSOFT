@@ -1,12 +1,19 @@
 import React from "react";
 import KeyMason from "../assets/KeyMason.png";
 import DevFolio from "../assets/devfolio.png";
+import TaskTrek from "../assets/tasktrek.png";
+
 function Portfolio() {
   return (
-    <div className="container m-auto sm:w-3/4 sm:mt-16 sm:mb-16">
-      <h2 className=" font-bold text-3xl px-10 mb-5">Projects</h2>
+    <div
+      id="portfolio"
+      className={`container m-auto sm:w-3/4 mt-12 sm:mt-16 sm:mb-16  transition-transform duration-800 ease-in-out`}
+    >
+      <h2 className=" font-bold text-3xl mb-5 bg-gray-400 text-gray-600 w-fit px-2 py-1 rounded-sm sm:ml-12 ml-9 shadow-md shadow-lime-500">
+        Projects
+      </h2>
       <div className="grid sm:grid-cols-2 px-5 gap-10 ">
-        <div className="border border-cyan-300 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
           <img src={KeyMason} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             KeyMason: A Password Generator App
@@ -15,12 +22,12 @@ function Portfolio() {
             A random password generator app to secure your data, accounts etc
           </p>
           <div className="flex justify-evenly mt-8">
-            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-violet-400 to-cyan-600 hover:text-blue-600 hover:opacity-50  rounded-full">
+            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-lime-400 to-cyan-400 hover:text-black duration-200 hover:opacity-50  rounded-full">
               <a href="https://keymason.netlify.app/" target="blank">
                 Live Preview
               </a>
             </button>
-            <button className="px-6 py-2 border rounded-full hover:border-red-500">
+            <button className="sm:px-6 px-3 py-2 border rounded-full hover:border-red-500">
               <a
                 href="https://github.com/sourcebykhalid/KeyMason-A-Password-Generator-App"
                 target="blank"
@@ -30,7 +37,7 @@ function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="border border-cyan-300 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
           <img src={DevFolio} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             DevFolio: A Personal Portfolio Website
@@ -41,12 +48,12 @@ function Portfolio() {
             achieved so far.
           </p>
           <div className="flex justify-evenly mt-3">
-            <button className="px-3 sm:px-6py-2 bg-gradient-to-t from-violet-400 to-cyan-600 hover:text-blue-600 hover:opacity-50 rounded-full">
+            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-lime-400 to-cyan-400 hover:text-black duration-200 hover:opacity-50 rounded-full">
               <a href="https://devfoliobykhalid.netlify.app/" target="blank">
                 Live Preview
               </a>
             </button>
-            <button className="px-6 py-2 border rounded-full hover:border-red-500">
+            <button className="sm:px-6 px-3 py-2 border rounded-full hover:border-red-500">
               <a
                 href="https://github.com/sourcebykhalid/KeyMason-A-Password-Generator-App"
                 target="blank"
@@ -56,10 +63,10 @@ function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="border border-cyan-300 hover:cursor-pointer  rounded-md p-5">
-          <img src={DevFolio} alt="" />
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
+          <img src={TaskTrek} alt="" />
           <h3 className="text-lg font-semibold mt-5">
-            DevFolio: A Personal Portfolio Website
+            TaskTrek: A basic Task tracking app
           </h3>
           <p className="text-gray-400 text-sm mt-2">
             A Personal portfolio website giving my introduction to people,
@@ -67,14 +74,14 @@ function Portfolio() {
             achieved so far.
           </p>
           <div className="flex justify-evenly mt-3">
-            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-violet-400 to-cyan-600 hover:text-blue-600 hover:opacity-50 rounded-full">
-              <a href="https://devfoliobykhalid.netlify.app/" target="blank">
+            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-lime-400 to-cyan-400 hover:text-black duration-200 hover:opacity-50 rounded-full">
+              <a href="https://tasktrekk.netlify.app/" target="blank">
                 Live Preview
               </a>
             </button>
-            <button className="px-6 py-2 border rounded-full hover:border-red-500">
+            <button className="sm:px-6 px-3 py-2 border rounded-full hover:border-red-500">
               <a
-                href="https://github.com/sourcebykhalid/KeyMason-A-Password-Generator-App"
+                href="https://github.com/sourcebykhalid/OIBSIP/tree/main/TaskTrek"
                 target="blank"
               >
                 Checkout Github
@@ -82,7 +89,7 @@ function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="border border-cyan-300 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
           <img src={KeyMason} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             KeyMason: A Password Generator App
@@ -91,12 +98,12 @@ function Portfolio() {
             A random password generator app to secure your data, accounts etc
           </p>
           <div className="flex justify-evenly mt-8">
-            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-violet-400 to-cyan-600 hover:text-blue-600 hover:opacity-50 rounded-full">
+            <button className="px-3 sm:px-6 py-2 bg-gradient-to-t from-lime-400 to-cyan-400 hover:text-black duration-200 hover:opacity-50 rounded-full">
               <a href="https://keymason.netlify.app/" target="blank">
                 Live Preview
               </a>
             </button>
-            <button className="px-6 py-2 border rounded-full hover:border-red-500">
+            <button className="sm:px-6 px-3 py-2 border rounded-full hover:border-red-500">
               <a
                 href="https://github.com/sourcebykhalid/KeyMason-A-Password-Generator-App"
                 target="blank"
