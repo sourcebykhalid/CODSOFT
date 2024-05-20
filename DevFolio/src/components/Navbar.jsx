@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import Resume from "../assets/latest2.pdf";
 
 function Navbar() {
   return (
@@ -40,7 +41,7 @@ function Navbar() {
             </ScrollLink>
           </li>
           <li className="text-gray-400 hover:text-white hover:border-b-2 hover:border-lime-400 cursor-pointer">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href={Resume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
