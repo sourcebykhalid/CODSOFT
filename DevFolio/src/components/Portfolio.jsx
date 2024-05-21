@@ -14,7 +14,7 @@ function Portfolio() {
         Projects
       </h2>
       <div className="grid sm:grid-cols-2 px-5 gap-10 ">
-        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer sm:hover:scale-105  rounded-md p-5">
           <img src={KeyMason} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             KeyMason: A Password Generator App
@@ -38,7 +38,7 @@ function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer sm:hover:scale-105  rounded-md p-5">
           <img src={DevFolio} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             DevFolio: A Personal Portfolio Website
@@ -64,7 +64,7 @@ function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer sm:hover:scale-105  rounded-md p-5">
           <img src={TaskTrek} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             TaskTrek: A basic Task tracking app
@@ -90,7 +90,7 @@ function Portfolio() {
             </button>
           </div>
         </div>
-        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer  rounded-md p-5">
+        <div className="border border-lime-400 hover:shadow-lime-400 hover:shadow-md duration-500 hover:cursor-pointer sm:hover:scale-105  rounded-md p-5">
           <img src={Weather} alt="" />
           <h3 className="text-lg font-semibold mt-5">
             Weather Sphere: Weather Forcasting App

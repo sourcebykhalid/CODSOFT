@@ -1,6 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from "../assets/latest2.pdf";
+import Resume from "../assets/latest.pdf";
 
 function Navbar() {
   return (
@@ -54,18 +54,6 @@ function Navbar() {
               duration={500}
             >
               Contact
-            </ScrollLink>
-          </li>
-          <li className="text-black hover:text-white hover:border-b hover:border-lime-400  cursor-pointer fixed bottom-8 right-4 bg-lime-400 p-2 rounded-sm shadow-md shadow-orange-400 hidden sm:block">
-            <ScrollLink
-              to="hero"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className="text-black"
-            >
-              ▲
             </ScrollLink>
           </li>
         </ul>
