@@ -44,7 +44,7 @@ function Header() {
           </button>
         </div>
         {isOpen && (
-          <div className="flex flex-wrap basis-full  justify-center items-center h-fit">
+          <div className="flex flex-wrap basis-full gap-x-7 items-center h-fit">
             <Navbar />
           </div>
         )}
